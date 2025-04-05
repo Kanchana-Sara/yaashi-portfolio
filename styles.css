@@ -1,0 +1,288 @@
+
+
+body {
+    font-family: 'Chic';
+    margin: 0;
+    color: rgb(71, 71, 71);
+    position: relative;
+     
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+    scroll-behavior: smooth;
+}
+
+
+
+@font-face {
+    font-family: 'Chic';
+    src: url('./fonts/ChicAvenue-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    
+    margin: 0;
+    color: rgb(71, 71, 71);
+    ;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+    font-family: 'Chic';
+
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.background {
+    transform: translateZ(-10px) scale(2);
+}
+
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+#aboutMe {
+    position: absolute;
+    z-index: -1;
+    
+
+}
+
+#aboutMe .row .col {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+
+}
+
+#Skills {
+    background-color: #FAEEE7;
+}
+
+
+h1 {
+    color: white;
+    -webkit-text-stroke-color: rgb(240, 141, 141);
+    -webkit-text-stroke-width: 0.02em;
+  
+
+}
+
+p {
+
+
+    color: rgb(240, 141, 141);
+
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+
+    
+}
+
+.card{
+    
+    
+    border: 1px solid #FF8BA7 !important;
+    filter: drop-shadow(2px 2px 15px rgba(240, 141, 141,0.2));
+    
+
+}
+
+.card-img-top{
+    height: 10rem;
+}
+
+.col .card img{
+    object-fit: cover;
+}
+
+.card-body{
+    background-color:#FAEEE7;
+   
+    
+}
+.navbar {
+    background-color: #FAEEE7;
+}
+
+.tab-content .container .container-fluid .row{
+    justify-content: center;
+
+}
+
+.tab-content .container .container-fluid .row .col .card .card-body .card-text{
+   
+    
+    text-align: center;
+}
+
+.tab-content .container .container-fluid .row .col .card .card-body h3{
+   
+    -webkit-text-stroke-color: rgb(231, 79, 79);
+    -webkit-text-stroke-width: 0.01em;
+    color: #C3F0CA !important;
+    text-align: center;
+}
+
+.card-group{
+    display: flex;
+}
+
+
+.card-group .card{
+    border: none !important;
+}
+
+.card-group h4{
+    -webkit-text-stroke-color: rgb(231, 79, 79);
+    -webkit-text-stroke-width: 0.02em;
+    color: #C3F0CA !important;
+    text-align: center;
+    
+}
+
+.card-group p{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.h4-text{
+    text-align: center;
+    -webkit-text-stroke-color: rgb(231, 79, 79);
+    -webkit-text-stroke-width: 0.02em;
+    color: #C3F0CA !important;
+
+}
+
+.p-text{
+    text-align: center;
+}
+
+#Experience{
+    background: url('./images/4914306.jpg');
+
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+
+background-size: cover;
+}
+
+.content {
+    
+    overflow: auto;
+    position: relative;
+  }
+  
+  .content::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  
+    display: block;
+    background-image: url('./images/4914306.jpg');
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+  
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+  }
+
+  .txt-color{
+    color: rgb(240, 141, 141) !important;
+  }
+
+  .txt-colorG{
+    color: #C3F0CA !important;
+  }
+
+  .txt-colorP{
+    color: #FFC6C7 !important;
+  }
+
+  .outlineonly{
+    -webkit-text-stroke-color: rgb(231, 79, 79);
+    -webkit-text-stroke-width: 0.03em;
+  }
+
+
+  ul{
+    list-style: none;
+  }
+
+  .cardBody{
+    border: 1px dotted  rgb(231, 79, 79)!important;
+  }
+
+
+  .card-edu{
+    box-shadow: none !important;
+  }
+
+
+.nav-link {
+    color: #FF8BA7 !important;
+    position: relative;
+    
+
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 80%;
+    height: 5px;
+    background-color: #C3F0CA;
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.4s ease;
+}
+
+
+.nav-link:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+
+.col-edu-card{
+    display: flex;
+    justify-content: center;
+}
+
