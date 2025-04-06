@@ -129,8 +129,14 @@ p {
 .card-body{
     background-color:#FAEEE7;
    
+   
     
 }
+
+.transparent-body {
+    background-color: transparent !important;
+  }
+  
 .navbar {
     background-color: #FAEEE7;
 }
@@ -247,7 +253,9 @@ background-size: cover;
   }
 
   .cardBody{
-    border: 1px dotted  rgb(231, 79, 79)!important;
+    border: none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
 
@@ -256,6 +264,54 @@ background-size: cover;
   }
 
 
+  .e1{
+    border-top: 3px dashed  rgb(231, 79, 79)!important;
+    border-right:3px dashed  rgb(231, 79, 79)!important;
+
+  }
+
+  .e2{
+    border-top: 3px dashed  rgb(231, 79, 79)!important;
+    border-left:3px dashed  rgb(231, 79, 79)!important;
+  }
+
+ .e3{
+    border-top: 3px dashed  rgb(231, 79, 79)!important;
+    border-right:3px dashed  rgb(231, 79, 79)!important;
+    border-bottom: 3px dashed  rgb(231, 79, 79)!important;
+  }
+
+
+  #edu-car{
+    display: block;
+  }
+
+  #cer-car{
+    display: none;
+  }
+
+  .carousel-item{
+    height:25rem;
+    min-height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+align-content: center;
+
+
+  }
+
+  .carousel-item img{
+    object-fit: cover;
+    
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #FF8BA7 !important;
+    border-radius: 50%;
+    
+    transition: opacity 0.3s ease;                              
+  }
 .nav-link {
     color: #FF8BA7 !important;
     position: relative;
